@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		035F3066583FBA654E6A6E03 /* RidgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBF70699A31D06B8D790CC5 /* RidgeTests.swift */; };
+		34242C8EA534EDDAF06C6389 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4923A1705C8BE9CEDE470B /* App.swift */; };
+		7180BDCB82A7E42842286280 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAC36B8114E2358A807C497 /* Theme.swift */; };
+		760EB584DB9873E1DDB8CDB4 /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACED111843C30B85C79E0FAA /* Store.swift */; };
+		767A08803E4E04AD4373B995 /* Ridge.storekit in Resources */ = {isa = PBXBuildFile; fileRef = D0CF34ED7AF7DB060B3823BD /* Ridge.storekit */; };
+		7CA84F407DCA3BD1AC57EE6D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 610A84191F17C4DA45650568 /* HomeView.swift */; };
+		852AD284AF7B91C2D700BAA8 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279F54F48ABAE7CFAC064A4E /* PaywallView.swift */; };
+		87C034AB6E841B72B4B9BB41 /* PurchaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F10A8281EE7B46854987CA75 /* PurchaseManager.swift */; };
+		9ABE5EB1673F439E7BC7D727 /* Sheets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6133FC226D9E74D6A9669205 /* Sheets.swift */; };
+		A4A06E38E4F9249287CC4C6B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2310FBD2C2E6B635AB3A1055 /* SettingsView.swift */; };
+		BDC461AD6FE675FF124BB072 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB0C6950CC30479C19AE46D /* Models.swift */; };
+		D2FA855D84C6E2329568BB3C /* RidgeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBB3C9C92B8EEB4B7C65F64 /* RidgeUITests.swift */; };
+		E2B9A0CF7CC9C0B7FCAB7FE1 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD117F2074B60B0D6F89B022 /* RootTabView.swift */; };
+		E683FAF97EBD4CB2E7C952AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57CD968F1C037CF4DB7ED2EA /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F039F5EA09DB65137412E2EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC7F8B4873B88D544E6DE30D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 458940C74A365AC06EC4A270;
+			remoteInfo = Ridge;
+		};
+		FBA93C3DDCE63C66FCFE0BC1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC7F8B4873B88D544E6DE30D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 458940C74A365AC06EC4A270;
+			remoteInfo = Ridge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07EC22739F9DB8CD07D03E0B /* Ridge.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = Ridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2310FBD2C2E6B635AB3A1055 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		279F54F48ABAE7CFAC064A4E /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		3FBF70699A31D06B8D790CC5 /* RidgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidgeTests.swift; sourceTree = "<group>"; };
+		482677D8E4898DBF37E8B22E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		4BBB3C9C92B8EEB4B7C65F64 /* RidgeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RidgeUITests.swift; sourceTree = "<group>"; };
+		57CD968F1C037CF4DB7ED2EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		610A84191F17C4DA45650568 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6133FC226D9E74D6A9669205 /* Sheets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sheets.swift; sourceTree = "<group>"; };
+		986D6D360F9B14FB8D345F0F /* RidgeUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = RidgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACED111843C30B85C79E0FAA /* Store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		B7BEF1DC686BCD1E1373EA7C /* RidgeTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = RidgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC4923A1705C8BE9CEDE470B /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		D0CF34ED7AF7DB060B3823BD /* Ridge.storekit */ = {isa = PBXFileReference; path = Ridge.storekit; sourceTree = "<group>"; };
+		DAB0C6950CC30479C19AE46D /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		DD117F2074B60B0D6F89B022 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		EEAC36B8114E2358A807C497 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		F10A8281EE7B46854987CA75 /* PurchaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		42ECF1E5ECA14FF6C2D5FEEC /* Ridge */ = {
+			isa = PBXGroup;
+			children = (
+				CC4923A1705C8BE9CEDE470B /* App.swift */,
+				57CD968F1C037CF4DB7ED2EA /* Assets.xcassets */,
+				610A84191F17C4DA45650568 /* HomeView.swift */,
+				482677D8E4898DBF37E8B22E /* Info.plist */,
+				DAB0C6950CC30479C19AE46D /* Models.swift */,
+				279F54F48ABAE7CFAC064A4E /* PaywallView.swift */,
+				F10A8281EE7B46854987CA75 /* PurchaseManager.swift */,
+				DD117F2074B60B0D6F89B022 /* RootTabView.swift */,
+				2310FBD2C2E6B635AB3A1055 /* SettingsView.swift */,
+				6133FC226D9E74D6A9669205 /* Sheets.swift */,
+				ACED111843C30B85C79E0FAA /* Store.swift */,
+				EEAC36B8114E2358A807C497 /* Theme.swift */,
+			);
+			path = Ridge;
+			sourceTree = "<group>";
+		};
+		56F876F9E490E378500D8072 /* RidgeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4BBB3C9C92B8EEB4B7C65F64 /* RidgeUITests.swift */,
+			);
+			path = RidgeUITests;
+			sourceTree = "<group>";
+		};
+		666488D98D3FE080D58450C3 /* RidgeTests */ = {
+			isa = PBXGroup;
+			children = (
+				3FBF70699A31D06B8D790CC5 /* RidgeTests.swift */,
+			);
+			path = RidgeTests;
+			sourceTree = "<group>";
+		};
+		7AA9E0DE363D2BCF020D2CA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07EC22739F9DB8CD07D03E0B /* Ridge.app */,
+				B7BEF1DC686BCD1E1373EA7C /* RidgeTests.xctest */,
+				986D6D360F9B14FB8D345F0F /* RidgeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8179758ECD60506C648DAC68 = {
+			isa = PBXGroup;
+			children = (
+				42ECF1E5ECA14FF6C2D5FEEC /* Ridge */,
+				666488D98D3FE080D58450C3 /* RidgeTests */,
+				56F876F9E490E378500D8072 /* RidgeUITests */,
+				D0CF34ED7AF7DB060B3823BD /* Ridge.storekit */,
+				7AA9E0DE363D2BCF020D2CA7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		458940C74A365AC06EC4A270 /* Ridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 206BBDBB51AB9664EE833E68 /* Build configuration list for PBXNativeTarget "Ridge" */;
+			buildPhases = (
+				2CA95AF2283ED95AE3F075A0 /* Sources */,
+				A9A4DE235E4502E54DEC2BD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ridge;
+			packageProductDependencies = (
+			);
+			productName = Ridge;
+			productReference = 07EC22739F9DB8CD07D03E0B /* Ridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		64B854DA7976FD85D90BECBA /* RidgeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B9F8591D1D9F3CF69D37754 /* Build configuration list for PBXNativeTarget "RidgeUITests" */;
+			buildPhases = (
+				EA0D7ECEE28CEA582CFC5C41 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				817179CAEC59825430ACD8DB /* PBXTargetDependency */,
+			);
+			name = RidgeUITests;
+			packageProductDependencies = (
+			);
+			productName = RidgeUITests;
+			productReference = 986D6D360F9B14FB8D345F0F /* RidgeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		C9225C414294FBFC9DCA8B3B /* RidgeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BB1939DD2C99FE4891F0781 /* Build configuration list for PBXNativeTarget "RidgeTests" */;
+			buildPhases = (
+				38BFDBEF6E88DD9E0CCAEF17 /* Sources */,
+				A52D2A46B8D2B031FC8A674B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C04195E9D5D249F8181BEA53 /* PBXTargetDependency */,
+			);
+			name = RidgeTests;
+			packageProductDependencies = (
+			);
+			productName = RidgeTests;
+			productReference = B7BEF1DC686BCD1E1373EA7C /* RidgeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC7F8B4873B88D544E6DE30D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					458940C74A365AC06EC4A270 = {
+						DevelopmentTeam = W7Q885Q59C;
+						ProvisioningStyle = Automatic;
+					};
+					64B854DA7976FD85D90BECBA = {
+						DevelopmentTeam = W7Q885Q59C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 458940C74A365AC06EC4A270;
+					};
+					C9225C414294FBFC9DCA8B3B = {
+						DevelopmentTeam = W7Q885Q59C;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 99E5D84F32D84BE55DBA717E /* Build configuration list for PBXProject "Ridge" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 8179758ECD60506C648DAC68;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7AA9E0DE363D2BCF020D2CA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				458940C74A365AC06EC4A270 /* Ridge */,
+				C9225C414294FBFC9DCA8B3B /* RidgeTests */,
+				64B854DA7976FD85D90BECBA /* RidgeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A52D2A46B8D2B031FC8A674B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				767A08803E4E04AD4373B995 /* Ridge.storekit in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9A4DE235E4502E54DEC2BD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E683FAF97EBD4CB2E7C952AB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CA95AF2283ED95AE3F075A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34242C8EA534EDDAF06C6389 /* App.swift in Sources */,
+				7CA84F407DCA3BD1AC57EE6D /* HomeView.swift in Sources */,
+				BDC461AD6FE675FF124BB072 /* Models.swift in Sources */,
+				852AD284AF7B91C2D700BAA8 /* PaywallView.swift in Sources */,
+				87C034AB6E841B72B4B9BB41 /* PurchaseManager.swift in Sources */,
+				E2B9A0CF7CC9C0B7FCAB7FE1 /* RootTabView.swift in Sources */,
+				A4A06E38E4F9249287CC4C6B /* SettingsView.swift in Sources */,
+				9ABE5EB1673F439E7BC7D727 /* Sheets.swift in Sources */,
+				760EB584DB9873E1DDB8CDB4 /* Store.swift in Sources */,
+				7180BDCB82A7E42842286280 /* Theme.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38BFDBEF6E88DD9E0CCAEF17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035F3066583FBA654E6A6E03 /* RidgeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA0D7ECEE28CEA582CFC5C41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2FA855D84C6E2329568BB3C /* RidgeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		817179CAEC59825430ACD8DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 458940C74A365AC06EC4A270 /* Ridge */;
+			targetProxy = F039F5EA09DB65137412E2EA /* PBXContainerItemProxy */;
+		};
+		C04195E9D5D249F8181BEA53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 458940C74A365AC06EC4A270 /* Ridge */;
+			targetProxy = FBA93C3DDCE63C66FCFE0BC1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4117B9E11D9CAAAEBEFFB622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.ridge.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ridge.app/Ridge";
+			};
+			name = Debug;
+		};
+		4FD17BD754F6E03DFF2EF549 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.ridge.tests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ridge.app/Ridge";
+			};
+			name = Release;
+		};
+		86F944B9DD387AAD2CDB1C17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.ridge.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = Ridge;
+			};
+			name = Release;
+		};
+		B4F573876CB6740E3B61CDEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = W7Q885Q59C;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BC00BF8895A6845C4B005ED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Ridge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.ridge;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		D0C172408EE786C03E0A2F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Ridge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.ridge;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E9F6BF10E67F161047C641AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shimondeitel.ridge.uitests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = Ridge;
+			};
+			name = Debug;
+		};
+		F498EBFA9F3AA0F1DF69C214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = W7Q885Q59C;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		206BBDBB51AB9664EE833E68 /* Build configuration list for PBXNativeTarget "Ridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0C172408EE786C03E0A2F4E /* Debug */,
+				BC00BF8895A6845C4B005ED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4B9F8591D1D9F3CF69D37754 /* Build configuration list for PBXNativeTarget "RidgeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9F6BF10E67F161047C641AA /* Debug */,
+				86F944B9DD387AAD2CDB1C17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5BB1939DD2C99FE4891F0781 /* Build configuration list for PBXNativeTarget "RidgeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4117B9E11D9CAAAEBEFFB622 /* Debug */,
+				4FD17BD754F6E03DFF2EF549 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		99E5D84F32D84BE55DBA717E /* Build configuration list for PBXProject "Ridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4F573876CB6740E3B61CDEE /* Debug */,
+				F498EBFA9F3AA0F1DF69C214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC7F8B4873B88D544E6DE30D /* Project object */;
+}
