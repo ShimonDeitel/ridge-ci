@@ -91,7 +91,7 @@ final class RidgeUITests: XCTestCase {
         let app = launchApp()
         app.tabBars.buttons["Settings"].tap()
 
-        let picker = app.segmentedControls.firstMatch
+        let picker = app.descendants(matching: .any).matching(identifier: "weightUnitPicker").firstMatch
         XCTAssertTrue(picker.waitForExistence(timeout: 12))
         XCTAssertTrue(app.navigationBars["Settings"].exists)
     }
